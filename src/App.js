@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import NewsPage from './pages/NewsPage';
 
 const App = () => {
-  return <Route path="/:category?" component={NewsPage} />;
+  return <Route path="/news-viewer/:category?" component={NewsPage} />;
 };
 
 export default App;
